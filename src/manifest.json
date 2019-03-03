@@ -1,0 +1,20 @@
+{
+"manifest_version": 2,
+    "name": "uranus",
+    "description": "This extension replaces Uranus with Your anus.",
+    "version": "1.0",
+    "browser_action": {
+		"default_icon": "icon.png"
+	},
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "index.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
