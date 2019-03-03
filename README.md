@@ -1,5 +1,5 @@
 # uranus
-An extension that replaces _Uranus_ with _Your anus_.
+An extension that replaces "_Uranus_" with "_Your anus_".
 
 ---
 
